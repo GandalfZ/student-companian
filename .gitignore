@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.doku-student-companian.md
 
 # testing
 /coverage
