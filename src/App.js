@@ -3,12 +3,12 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 
-import Dashboard from './pages/dashboard';
-import CodeBuddys from './pages/codeBuddys';
-import Teams from './pages/teams';
-import Energy from './pages/energy';
-import Journal from './pages/journal';
-import RatingJournal from './pages/ratingJournal';
+import Dashboard from './pages/Dashboard';
+import CodeBuddys from './pages/CodeBuddys';
+import Teams from './pages/Teams';
+import Energy from './pages/Energy';
+import Journal from './pages/Journal';
+import RatingJournal from './pages/RatingJournal';
 
 import { teamMembers } from "./data";
 
