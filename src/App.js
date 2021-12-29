@@ -21,28 +21,22 @@ function App() {
         <Header />
 
         <Routes>
-          <Route exact path="/">
-            <Dashboard />
+          <Route exact path="/" element={<Dashboard />}>
           </Route>
 
-          <Route path="codeBuddys">
-            <CodeBuddys />
+          <Route path="codeBuddys" element={<CodeBuddys />}>
           </Route>
 
-          <Route path="teams">
-            <Teams />
+          <Route path="teams" element={<Teams />}>
           </Route>
 
-          <Route path="energy">
-            <Energy />
+          <Route path="energy" element={<Energy />}>
           </Route>
 
-          <Route path="journal">
-            <Journal />
+          <Route path="journal" element={<Journal />}>
           </Route>
 
-          <Route path="ratingJournal">
-            <RatingJournal />
+          <Route path="ratingJournal" element={<RatingJournal />}>
           </Route>
         </Routes>
 
