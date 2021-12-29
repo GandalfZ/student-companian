@@ -1,3 +1,3 @@
 export default function RatingJournal() {
-    return <h1>Energy</h1>
+    return <h1>RatingJournal</h1>
 }
