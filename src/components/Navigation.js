@@ -48,5 +48,5 @@ justify-content: space-around;
 height: 2.75rem;
 margin: 1.25rem;
 position: fixed;
-width: 20.938rem;
+width: 335px;
 `
