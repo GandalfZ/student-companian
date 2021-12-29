@@ -9,17 +9,29 @@ import { ReactComponent as JournalIcon } from '../assets/JournalIcon.svg';
 
 const Navigation = () => {
     return (
-        <NavigationWrapper>
-            <nav>
-                <NavLink to="/Dashboard">
+        <nav>
+            <NavigationWrapper>
+                <NavLink to="/">
                     <DashboardIcon />
                 </NavLink>
-            <BuddydIcon />
-            <TeamIcon />
-            <EnergyIcon />
-            <JournalIcon />
-            </nav>
-        </NavigationWrapper>
+
+                <NavLink to="CodeBuddys">
+                    <BuddydIcon />
+                </NavLink>
+                
+                <NavLink to="Teams">
+                    <TeamIcon />
+                </NavLink>
+
+                <NavLink to="Energy">
+                    <EnergyIcon />
+                </NavLink>
+
+                <NavLink to="Journal">
+                    <JournalIcon />
+                </NavLink>
+            </NavigationWrapper>
+        </nav>
     )
 }
 
