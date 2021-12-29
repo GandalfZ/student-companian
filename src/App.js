@@ -13,6 +13,9 @@ import RatingJournal from './pages/RatingJournal';
 
 import { teamMembers } from "./data";
 
+function App() {
+  return (
+
       <>
         <Header />
 
@@ -39,7 +42,6 @@ import { teamMembers } from "./data";
         <Navigation />
       </>
 
-    </div>
   );
 }
 
