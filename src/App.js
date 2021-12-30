@@ -11,8 +11,6 @@ import Energy from './pages/Energy';
 import Journal from './pages/Journal';
 import RatingJournal from './pages/RatingJournal';
 
-import { teamMembers } from "./data";
-
 function App() {
   return (
 
