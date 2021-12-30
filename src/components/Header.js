@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import { ReactComponent as BackgroundImage } from "../assets/background_shape_1.svg";
 
-const Header = () => {
+const Header = (headerName) => {
     return (
         <>
             <HeaderWrapper>
                 <BackgroundImage />
             </HeaderWrapper>
             <TitleWrapper>
-                <Title>Title</Title>
+                <Title>{headerName.title}</Title>
             </TitleWrapper>
         </>
     )

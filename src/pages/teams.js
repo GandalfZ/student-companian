@@ -1,3 +1,12 @@
-export default function Teams(){
-    return <h1>Teams</h1>
+import Header from '../components/Header';
+
+const Teams = () => {
+    return (
+        <>
+            <Header title="Teams" />
+            <h1>Bla bla</h1>
+        </>
+    )
 }
+
+export default Teams;

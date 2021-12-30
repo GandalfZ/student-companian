@@ -1,3 +1,12 @@
-export default function CodeBuddys() {
-    return <h1>CodeBuddys</h1>
-};
+import Header from '../components/Header';
+
+const CodeBuddys = () => {
+    return (
+        <>
+            <Header title="Code Buddys" />
+            <h1>Bla bla</h1>
+        </>
+    )
+}
+
+export default CodeBuddys;

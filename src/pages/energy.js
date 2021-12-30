@@ -1,4 +1,12 @@
-export default function Energy(){
-    return <h1>Energy</h1>
-    
+import Header from '../components/Header';
+
+const Energy = () => {
+    return (
+        <>
+        <Header title="Energy" />
+        <h1>Bla Bla</h1>
+        </>
+    )
 }
+
+export default Energy;

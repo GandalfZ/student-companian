@@ -17,7 +17,7 @@ function App() {
   return (
 
       <>
-        <Header />
+
 
         <Routes>
           <Route exact path="/" element={<Dashboard />}>

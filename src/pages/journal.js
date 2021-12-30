@@ -1,3 +1,12 @@
-export default function Journal(){
-    return <h1>Journal</h1>
+import Header from '../components/Header';
+
+const Journal = () => {
+    return (
+        <>
+            <Header title="Journal" />
+            <h1>Bla bla</h1>
+        </>
+    )
 }
+
+export default Journal;
